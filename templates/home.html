@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Cuore di Napoli</title>
+	<meta name="description" content="#cuoredinapoli é un segno capace di raccontare Napoli nella sua singolare molteplicità. Esso si compone sia di un simbolo visivo (Cuore, un'installazione che di volta in volta viene collocata in punti strategici della città) sia di un #hashtag che lo restituisce in rete. Chiunque, postando sui social network immagini, video e tweet con questo #hashtag, strumento di riconoscimento e integrazione, diviene parte del flusso: si realizza così la costante connessione delle energie della rete e della sfera del digitale con lo spazio fisico della città e dei suoi abitanti.">
+	<meta name="author" content="Nuove Tecnologie dell'Arte - Accademia di Belle Arti di Napoli">
+	<!--[if lt IE 9]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+	<![endif]-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://unpkg.com/tachyons@4.7.0/css/tachyons.min.css"/>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-98899130-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+  _paq.push(["setCookieDomain", "*.cuoredinapoli.xyz"]);
+  _paq.push(["setDomains", ["*.cuoredinapoli.xyz","*.www.cuoredinapoli.xyz"]]);
+  _paq.push(["setDoNotTrack", true]);
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="//piwik.blu-crab.com/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', '17']);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<!-- End Piwik Code -->
+</head>
+<body>
+	<div class="fl w-100 pa2">
+		<p style="text-align:center;">
+			<a href="https://www.facebook.com/hashtagcuoredinapoli/" rel="nofollow"><img src="{{ template_dir }}/Cuoredinapoli.svg" width="512" height="512"></a>
+		</p>
+	</div>
+	<form style="text-align:center;" action="/" method="post">
+		<div class="fl w-100 pa2"><label class="fw7" for="Label-Question">Cosa è per te #cuoredinapoli?</label></div>
+		<div class="fl w-100 pa2"><input id="testo" name="testo" type="text" class="input-reset">
+		<input type="submit" value="Genera"></div>
+		<select id="colormap" name="colormap">
+			<option value="seismic">Sismico</option>
+			<option value="spring">Primavera</option>
+			<option value="summer">Estate</option>
+			<option value="autumn" selected>Autunno</option>
+			<option value="winter">Inverno</option>
+			<option value="ocean">Oceano</option>
+			<option value="rainbow">Arcobaleno</option>
+			<option value="Reds">Rosso</option>
+			<option value="Wistia">Cocozza</option>
+			<option value="tab20">Vario</option>
+		</select>
+	</form>
+	<div class="fl w-100 pa2"><p class="tc f6 lh-copy">Scrivi qualcosa, premi il pulsante genera e attendi un po' per il tuo #cuoredinapoli personalizzato.</p></div>
+</body>
+</html>
